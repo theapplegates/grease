@@ -19,5 +19,8 @@
     "publish:prod": "ELEVENTY_ENV=prod eleventy",
     "lint:css": "stylelint \"_source/**/*.css\" --fix",
     "lint:js": "eslint \"_source/**/*.js\" --fix"
+  },
+  "dependencies": {
+    "feather-icons": "^4.29.2"
   }
 }
