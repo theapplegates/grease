@@ -19,8 +19,10 @@
     "lint:css": "stylelint \"_source/**/*.css\" --fix",
     "lint:js": "eslint \"_source/**/*.js\" --fix"
   },
+
   "type": "module",
   "dependencies": {
-    "@grimlink/eleventy-plugin-lucide-icons": "^2.0.7"
-  }
-}
+    "@grimlink/eleventy-plugin-lucide-icons": "^2.0.7",
+    "feather-icons": "^4.29.2"
+      }
+},
