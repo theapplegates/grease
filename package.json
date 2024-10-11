@@ -1,7 +1,8 @@
 {
   "name": "grease",
-  "type": "module",
   "version": "3.0.0",
+  "private": true,
+  "type": "module",
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-img": "^5.0.0",
@@ -10,16 +11,13 @@
     "lightningcss": "^1.27.0",
     "sharp": "^0.33.5",
     "stylelint": "^16.9.0",
-    "@grimlink/eleventy-plugin-lucide-icons": "^2.0.7",
-    "feather-icons": "^4.29.2"
     "stylelint-config-standard": "^36.0.0"
   },
-  "private": true,
   "scripts": {
     "start": "eleventy --serve --incremental --quiet",
     "publish:stage": "ELEVENTY_ENV=stage eleventy",
     "publish:prod": "ELEVENTY_ENV=prod eleventy",
     "lint:css": "stylelint \"_source/**/*.css\" --fix",
     "lint:js": "eslint \"_source/**/*.js\" --fix"
-  },
-},
+  }
+}
