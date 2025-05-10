@@ -10,8 +10,8 @@ custom fonts
 	font-display: swap;
 }
 @font-face {
-	font-family: 'wotfard-light-webfont';
-	src: url('/assets/fonts/wotfard-light-webfont.woff2') format("woff2-variations");
+	font-family: 'wotfard-thinitalic-webfont';
+	src: url('/assets/fonts/wotfard-thinitalic-webfont.woff2') format("woff2-variations");
 	font-weight: 200 800;
 	font-style: normal;
 	font-display: swap;
