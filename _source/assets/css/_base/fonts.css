@@ -1,6 +1,17 @@
+/* ----------------------------------------------------------------------------
+custom fonts
+---------------------------------------------------------------------------- */
+
 @font-face {
-	font-family: Sono;
-	src: url("/assets/fonts/Sono.woff2") format("woff2-variations");
+	font-family: 'wotfard-regular-webfont';
+	src: url('/assets/fonts/wotfard-regular-webfont.woff2') format("woff2-variations");
+	font-weight: 200 800;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'wotfard-light-webfont';
+	src: url('/assets/fonts/wotfard-light-webfont.woff2') format("woff2-variations");
 	font-weight: 200 800;
 	font-style: normal;
 	font-display: swap;
