@@ -16,7 +16,7 @@ export default async function image(
 		formats: ['jxl', 'avif', 'jpeg'],
 		urlPath: '/assets/images/',
 		outputDir: './_public/assets/images/',
-		sharpWebpOptions: { quality: 40 },
+		sharpWebpOptions: { quality: 75 },
 	});
 	const format = metadata[Object.keys(metadata)[0]];
 	const data = format[format.length - 1];
