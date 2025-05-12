@@ -12,8 +12,8 @@ export default async function image(
 ) {
 	const filePath = `_source/assets/images/${src}`;
 	const metadata = await eleventyImage(filePath, {
-		widths: [500, 1000, 1500, 2000, 2500, 3000],
-		formats: ['webp'],
+		widths: [250, 500, 1000, 1500, 2000, 2500, 3000],
+		formats: ['jxl', 'avif', 'jpeg'],
 		urlPath: '/assets/images/',
 		outputDir: './_public/assets/images/',
 		sharpWebpOptions: { quality: 40 },
